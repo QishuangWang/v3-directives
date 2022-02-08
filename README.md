@@ -52,7 +52,7 @@ app.use(VueDirectives)
 </script>
 ```
 
-## v-copy
+## v-RealImg
 
 使用：给 Dom 加上 v-RealImg
 
