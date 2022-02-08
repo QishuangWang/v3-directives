@@ -1,4 +1,4 @@
-# v3-directives
+# v3-directives  vue3自定义指令库
 
 ## 使用方法
 
