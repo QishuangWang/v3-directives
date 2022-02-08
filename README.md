@@ -1,4 +1,4 @@
-# v3-directives
+# v3-directives  vue3自定义指令库
 
 ## 使用方法
 
@@ -52,7 +52,7 @@ app.use(VueDirectives)
 </script>
 ```
 
-## v-copy
+## v-RealImg
 
 使用：给 Dom 加上 v-RealImg
 
