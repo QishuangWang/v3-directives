@@ -1,0 +1,20 @@
+{
+  "name": "v3-directives",
+  "version": "1.0.0",
+  "description": "directives base vue",
+  "author": "wqs",
+  "main": "./dist/index.js",
+  "repository": "https://github.com/QishuangWang/v3-directives",
+  "scripts": {
+    "build": "webpack --config webpack.config.js"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.0",
+    "webpack-merge": "^4.2.2"
+  }
+}
