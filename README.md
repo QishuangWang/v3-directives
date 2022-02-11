@@ -1,4 +1,4 @@
-# v3-directives  vue3自定义指令库
+# v3-directives vue3 自定义指令库
 
 ## 使用方法
 
@@ -12,9 +12,9 @@ npm install v3-directives --save
 
 ```js
 import VueDirectives from "v3-directives";
-const app = createApp(App)
-app.use(router).mount('#app')
-app.use(VueDirectives)
+const app = createApp(App);
+app.use(router).mount("#app");
+app.use(VueDirectives);
 ```
 
 基于 vue 的自定义指令集合，包含
@@ -240,5 +240,23 @@ modify 暂时只支持传入 money(金额千分位)
   <!-- 1234,4567,89 -->
   <div v-format-text>abcdefghi</div>
   <!-- abc,def,ghi- -->
+</template>
+```
+
+## v-collapse
+
+支持传入指定的绑定值，参数
+open 展开时的高度
+close 收起时的高度
+icon 展开收起图标，必传
+
+```html
+<template>
+  <div
+    v-collapse="{open:'200px',close:'43px',icon:'iconfont icon_global_ArrowDown'}"
+    style="width:200px;margin:0 auto"
+  >
+    <div class="box"></div>
+  </div>
 </template>
 ```

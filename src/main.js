@@ -10,6 +10,7 @@ import LazyLoad from './lazyLoad'
 import ellipsis from './ellipsis'
 import hideText from './hideText'
 import formatText from './formatText'
+import collapse from './collapse'
 // 自定义指令
 const directives = {
   copy,
@@ -23,8 +24,9 @@ const directives = {
   RealImg,
   ellipsis,
   hideText,
-  formatText
-}
+  formatText,
+  collapse
+  }
 export default {
   install(app) {
     Object.keys(directives).forEach((key) => {
