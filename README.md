@@ -1,5 +1,5 @@
-# v3-directives vue3 自定义指令库
-
+# v3-directives  vue3自定义指令库
+##码云地址https://gitee.com/wqs99/v3-directives
 ## 使用方法
 
 1. 安装依赖
