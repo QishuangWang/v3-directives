@@ -31,6 +31,8 @@ app.use(VueDirectives);
 - 拖拽指令 v-draggable
 - 文字超出宽度隐藏 v-ellipsis
 - 拖拽指令 v-hide-text
+- 展开收起 v-collapse
+- 返回顶部 v-backTop
 
 ## v-copy
 
