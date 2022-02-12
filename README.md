@@ -260,3 +260,8 @@ icon 展开收起图标，必传
   </div>
 </template>
 ```
+## v-backTop
+使用: 在 Dom 上加上 v-backTop
+```html
+<button v-backTop style="position:fixed;bottom:20px;right:20px">top</button>
+```

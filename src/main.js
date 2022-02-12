@@ -11,6 +11,7 @@ import ellipsis from './ellipsis'
 import hideText from './hideText'
 import formatText from './formatText'
 import collapse from './collapse'
+import backTop from './backTop'
 // 自定义指令
 const directives = {
   copy,
@@ -25,7 +26,8 @@ const directives = {
   ellipsis,
   hideText,
   formatText,
-  collapse
+  collapse,
+  backTop
   }
 export default {
   install(app) {
